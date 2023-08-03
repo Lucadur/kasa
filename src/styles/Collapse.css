@@ -1,0 +1,180 @@
+/* About*/
+.main-about {
+    height: 100vh;
+}
+.collapse-container-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.collapse-about{
+    width : 75%;
+    margin : 20px 0px;
+}
+
+.collapse-header-about {
+    background-color: #FF6060;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+.collapse-title-about {
+    color: white;
+    margin-left: 25px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.collapse-icon-about {
+    font-size: 24px;
+    color: white;
+    margin-right: 25px;
+    font-weight: 500;
+}
+
+.collapse-children-about{
+    background-color:#F6F6F6 ;
+    border-radius: 10px;
+    margin-top: -25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.collapse-content-about {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px 25px;
+   color: #FF6060;
+}
+
+
+@media (max-width: 1023px) { 
+    .collapse-container-about {
+        margin-top: 0px;
+    }
+    
+    .collapse-about {
+        width: 100%;
+        margin: 15px 0px;
+    }
+    
+    .collapse-header-about {
+        height: 30px;
+        border-radius: 10px;
+    }
+    
+    .collapse-title-about {
+        font-size: 14px;
+    }
+    .collapse-icon-about {
+        font-size: 14px;
+    }
+    
+    .collapse-content-about {
+        font-size: 12px;
+        margin-top: 10px;
+    }}
+
+/* Logement*/
+
+.collapse-container-logement {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.collapse-logement {
+    width: 70%;
+}
+
+.collapse-header-logement {
+    background-color: #FF6060;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+    position: relative;
+
+}
+
+.collapse-title-logement {
+    color: white;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.collapse-icon-logement {
+    font-size: 18px;
+    color: white;
+    margin-right: 25px;
+    font-weight: 500;
+}
+
+.collapse-children-logement {
+    background-color:#F6F6F6 ;
+    border-radius: 10px;
+    margin-top: -25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 100%;
+
+}
+.collapse-content-logement {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 50px 25px;
+    color: #FF6060;
+}
+
+.equipments {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1023px) { 
+    .collapse-container-logement {
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .collapse-logement {
+        width: 100%;
+    }
+    
+    .collapse-header-logement {
+        height: 30px;
+        border-radius: 10px;
+    
+    }
+    
+    .collapse-title-logement {
+        font-size: 14px;
+    }
+    .collapse-icon-logement {
+        font-size: 14px;
+    }
+    
+    .collapse-content-logement {
+        font-size: 12px;
+    }
+
+}

@@ -1,0 +1,29 @@
+
+
+.rating {
+    width: 250px;
+    display: flex;
+    font-size: 25px;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.active-star{
+    color: #FF6060;
+    margin-right: 10px;
+}
+
+.inactive-star{
+    color: #E3E3E3;
+    margin-right: 10px;
+}
+
+@media (max-width: 1023px) { 
+    .rating {
+        width: 120px;
+        font-size: 15px;
+        padding-top: 0px;
+        align-items:unset;
+    justify-content: unset;
+    }}

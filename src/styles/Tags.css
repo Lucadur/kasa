@@ -1,0 +1,44 @@
+
+
+.tag-container {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF6060;
+    border-radius: 10px;
+    margin-right: 25px;
+    width: 150px;
+    height: 25px;
+}
+
+.tag-title {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 1023px) { 
+
+    
+.tag-container {
+    flex-wrap: wrap;
+    padding-top: 0px;
+}
+    
+.tag {
+    width: 110px;
+    height: 20px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    
+}
+.tag-title {
+    font-size: 10px;
+}
+}

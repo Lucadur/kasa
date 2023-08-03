@@ -1,0 +1,85 @@
+
+.logement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FF6060;
+}
+
+.logement--textBold {
+    font-size: 36px;
+    color: #FF6060;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.logement--subtext {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logement-rightinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+
+.logement-right--name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+.logement-right--name--Nom {
+    line-height: 5px;
+}
+
+.logement-right--img{
+    border-radius: 50px;
+    width: 65px;
+    height: 65px;
+}
+
+@media (max-width: 1023px) { 
+    .logement { 
+        display: block;
+        margin-top: 10px;
+    }
+    .logement--textBold {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .logement--subtext {
+        font-size: 14px;
+    }
+
+    .logement-Left {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .logement-Right {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .logement-rightinfo {
+        line-height: 0px;
+        margin-left: 50px;
+    }
+
+.logement-right--name {
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.logement-right--img{
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+}
